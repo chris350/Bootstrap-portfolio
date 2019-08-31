@@ -1,0 +1,120 @@
+h2 
+{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img
+{
+    float: left;
+}
+
+body
+{
+    background-image: url(memphis-mini-dark.png);
+}
+
+main
+{
+    background-color: #ffffff;
+    margin: 8px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    height: 400px;
+}
+
+.main2
+{
+    background-color: #ffffff;
+    margin: 8px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    height: 600px; 
+    width: 960px;
+}
+
+.main3
+{
+    background-color: #ffffff;
+    margin: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 450px;
+    width: 960px;
+}
+
+p
+{
+    margin: 10px;
+}
+
+footer
+{
+    margin-top: 40px;
+    padding: 20px;
+    padding-bottom: -60px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+.nav-link
+{
+    color: #777777;
+}
+
+.column 
+{
+    float: left;
+    width: 33.33%;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+input[type=text], select, textarea 
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+  input[type=submit] 
+{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  input[type=submit]:hover 
+{
+    background-color: #4aaaa5;
+}
+  
+  .container 
+{
+    border-radius: 5px;
+    padding: 20px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nametag
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
